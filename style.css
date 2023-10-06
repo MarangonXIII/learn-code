@@ -1,0 +1,56 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'SCP';
+    src: url(Font/SCP/SourceCodePro-Medium.ttf);
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'FSEC';
+    src: url(Font/FSEC/FiraSansExtraCondensed-Medium.ttf);
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'ESSC';
+    src: url(Font/ESSC/EncodeSansSemiCondensed-Medium.ttf);
+    font-weight: normal;
+}
+
+:root{
+    --cor1: #13172D;
+    --cor2: #B71728;
+    --cor3: #ffffff;
+
+    --fonte-padrao: 'SCP', Arial;
+    --fonte-titulo: 'FSEC', Arial;
+    --fonte-destaque: 'ESSC', Arial;
+}
+
+*{
+    margin: 0px; 
+    padding: 0px;
+}
+
+body{
+    background-color: #13172D;
+}
+
+h1{
+    color: white;
+    font-family: var(--fonte-padrao);
+}
+
+h2{
+    color: white;
+    font-family: var(--fonte-destaque);
+}
+
+h3{
+    color: var(--cor2);
+    font-family: var(--fonte-titulo);
+}
+
+p{
+    color: white;
+    font-family: var(--fonte-padrao);
+    text-align: justify;
+}

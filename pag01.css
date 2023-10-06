@@ -1,0 +1,38 @@
+header{
+    background-image: url(Images/universo.gif);
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+div.video{
+    margin: 30px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 50%;
+    position: relative;
+}
+div.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 100%;
+}
+
+div.sub{
+    background-image: url(Images/ceu.jpg);
+    background-position: center;
+    padding: 20px 80px;
+    position: relative;
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+div.sub > p{
+    background-color: darkred;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+}

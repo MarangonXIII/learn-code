@@ -30,6 +30,28 @@
     --fonte-destaque: 'ESSC', Arial;
 }
 
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+nav{
+    background-color: #13172D;
+    padding: 20px;
+}
+a{
+    padding: 10px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+a:hover{
+    background-color: #B71728;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
 body{
     background-color: #13172D;
     overflow-x: hidden;

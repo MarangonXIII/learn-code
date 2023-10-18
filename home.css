@@ -18,6 +18,12 @@ header > h1{
 
 header > h2{
     text-align: center;
+    padding-top: 50px;
+    font-size: 2em;
+}
+
+main{
+    margin: 60px;
 }
 
 div.int{
@@ -51,11 +57,6 @@ div.qs > p{
 img.alvo{
     width: 500px;
     display: table;
-}
-
-div.hr{
-    width: 1550px;
-    margin: auto;
 }
 
 div.curso > h3{

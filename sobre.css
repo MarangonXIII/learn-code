@@ -1,0 +1,50 @@
+header{
+    background-image: url(Images/universo.gif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-attachment: cover;
+}
+
+header > h1{
+    font-size: 5em;
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+    font-size: 50px;
+}
+
+p{
+    text-align: justify;
+    font-size: large;
+    line-height: 25px;
+    padding-top: 15px;
+}
+
+main{
+    margin: 60px;
+}
+
+div{
+    margin: 10px;
+}
+
+summary{
+    color: #13172D;
+}
+
+.center{
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.pad{
+    padding-bottom: 10px;
+}
